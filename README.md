@@ -1,4 +1,5 @@
 Movie Recommendation System
+
 Project Overview
 The Movie Recommendation System is a simple yet powerful application designed to suggest movies to users based on their preferences. Utilizing the famous MovieLens dataset, the system compares movies and recommends those that are most similar to a movie selected by the user. This project demonstrates the implementation of collaborative filtering techniques to create personalized movie recommendations.
 
@@ -8,20 +9,6 @@ We leverage the MovieLens dataset, a widely-used dataset in the field of movie r
 User Ratings: Information on user ratings of various movies.
 Movie Metadata: Details like movie titles, genres, and other attributes.
 The dataset is ideal for building and testing recommendation algorithms due to its richness and diversity.
-
-Project Structure
-plaintext
-Copy code
-├── data/
-│   ├── movies.csv              # Movie metadata
-│   ├── ratings.csv             # User ratings
-│   └── ...                     # Other dataset files
-├── notebooks/
-│   ├── exploratory_analysis.ipynb  # Data exploration and visualization
-│   └── model_building.ipynb        # Model building and evaluation
-├── main.py                    # Main script for data processing and model building
-├── requirements.txt           # Dependencies and required packages
-└── README.md                  # Project documentation
 
 Technologies Used
 Python: The core programming language for the project.
